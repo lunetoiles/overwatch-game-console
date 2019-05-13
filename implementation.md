@@ -1,4 +1,4 @@
-# Console function calls
+# Console system calls
 
 ### System call 100 - Initialization
 
