@@ -210,7 +210,7 @@ If more than one color has too many rendered, the highest error code will be set
                     index: add(
                         value 1: add(modulo(index of value(N, cu),V),X)
                         value 2: multiply(
-                            value 1: add(rount down(modulo(index of value(N, cu),V)),Y)
+                            value 1: add(rount down(devide(index of value(N, cu),V)),Y)
                             value 2: U
                         )
                     )
@@ -231,7 +231,7 @@ If more than one color has too many rendered, the highest error code will be set
                     index: add(
                         value 1: add(modulo(index of value(N, cu),V),X)
                         value 2: multiply(
-                            value 1: add(rount down(modulo(index of value(N, cu),V)),Y)
+                            value 1: add(rount down(devide(index of value(N, cu),V)),Y)
                             value 2: U
                         )
                     )
@@ -252,7 +252,7 @@ If more than one color has too many rendered, the highest error code will be set
                     index: add(
                         value 1: add(modulo(index of value(N, cu),V),X)
                         value 2: multiply(
-                            value 1: add(rount down(modulo(index of value(N, cu),V)),Y)
+                            value 1: add(rount down(devide(index of value(N, cu),V)),Y)
                             value 2: U
                         )
                     )
@@ -273,7 +273,7 @@ If more than one color has too many rendered, the highest error code will be set
                     index: add(
                         value 1: add(modulo(index of value(N, cu),V),X)
                         value 2: multiply(
-                            value 1: add(rount down(modulo(index of value(N, cu),V)),Y)
+                            value 1: add(rount down(devide(index of value(N, cu),V)),Y)
                             value 2: U
                         )
                     )
@@ -294,7 +294,7 @@ If more than one color has too many rendered, the highest error code will be set
                     index: add(
                         value 1: add(modulo(index of value(N, cu),V),X)
                         value 2: multiply(
-                            value 1: add(rount down(modulo(index of value(N, cu),V)),Y)
+                            value 1: add(rount down(devide(index of value(N, cu),V)),Y)
                             value 2: U
                         )
                     )
