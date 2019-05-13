@@ -1,4 +1,6 @@
-# Global (console) variables
+# Console variables
+
+All variables below are global variables. Player variables are reserved for game logic, syscall arguments/return values, and game state.
 
 ## Read/write variables
 
@@ -25,7 +27,7 @@
     L -
     M - Error code
     
-    Z - Console function call
+    Z - Console function call and state
     
 ## Internal variables
 
@@ -35,7 +37,7 @@
     Q - Red dot positions
     R - purple dot positions
     S - green dot positions
-    T
+    T - player in index 0
     U through Y - intermdiate variables
     
 # Console function calls
