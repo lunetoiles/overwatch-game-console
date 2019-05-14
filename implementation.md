@@ -71,7 +71,7 @@ Initializes screen based on global variable E - Display settings. Should be call
 **State 210 - Init screen loop**
     
     // add screen position
-    append N <= V + right*(U % X) + down*(round down(U / X))
+    append N <= V + (right * W)*(U % X) + (backward * W)*(round down(U / X))
     U += 1
     
     wait 0
