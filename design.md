@@ -7,8 +7,8 @@ All variables below are global variables. Player variables are reserved for game
     A - VRAM
     B - pallet
         0: blank
-        1: white
-        2: blue
+        1: blue
+        2: white
         3: red
         4: purple
         5: green
@@ -19,7 +19,7 @@ All variables below are global variables. Player variables are reserved for game
         1: Dot spacing
         2: Distance from camera
     F - Effect size
-    G - Color count array [ white count, blue count, red count, purple count, green count ]
+    G - Color count array [ blue count, white count, red count, purple count, green count ]
     H - 
     I - input array [ up, down, left, right, primary, secondary, jump, crouch, ultimate, ability 1, ability 2 ]
     J - 
@@ -32,8 +32,8 @@ All variables below are global variables. Player variables are reserved for game
 ## Internal variables
 
     N - Screen positions array
-    O - White dot positions
-    P - Blue dot positions
+    O - Blue dot positions
+    P - White dot positions
     Q - Red dot positions
     R - purple dot positions
     S - green dot positions
@@ -63,8 +63,8 @@ Redraws the screen based on the current contents of A - VRAM, B - pallet, C - VR
 If the total number of required effects for any color is greater than the amount of effects for that color that
 exist according to G - Color count array, M will be set to one of the following error codes:
 
-    200 - too many white
-    201 - too many blue
+    200 - too many blue
+    201 - too many white
     202 - too many red
     203 - too many purple
     204 - too many green
