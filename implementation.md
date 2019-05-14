@@ -52,16 +52,16 @@ Initializes screen based on global variable E - Display settings. Should be call
 
 **State 200 - Init screen start**
     
-    W <= D[1] //set W to spacing for quick access
-    U <= D[0] * W //set U to screen dimensions
+    W <= E[1] //set W to spacing for quick access
+    U <= E[0] * W //set U to screen dimensions
     V <= {camera position} //start V at camera
-    V += down * D[2] //move V away from camera
+    V += down * E[2] //move V away from camera
     V += left * (X component(U) / 2) // move V to x starting position
     V += forward * (y component(U) / 2) //move V to Y starting position
     
     U <= 0 //set index
-    X <= x component(D[0]) //get stride of screen
-    Y <= X * y component(D[0]) //get total screen elements
+    X <= x component(E[0]) //get stride of screen
+    Y <= X * y component(E[0]) //get total screen elements
     
     //init screen positions to empty array
     N <= []
