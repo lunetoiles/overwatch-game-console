@@ -104,26 +104,26 @@ If the sum of all color counts is greater than 64, M will be set to error code 1
     
     state <== 310
     
-**state 310 - create white effects**
+**state 310 - create blue effects**
 
     skip(64 - G[0])
     (repeat 63 to 0)
     create effect(
         type: sphere
-        color: white
+        color: blue
         position: O[{index}]
         size: F
         reeavaluate: all
     )
     state <= 311
     
- **state 311 - create blue effects**
+ **state 311 - create white effects**
 
     skip(64 - G[1])
     (repeat 63 to 0)
     create effect(
         type: sphere
-        color: blue
+        color: white
         position: P[{index}]
         size: F
         reeavaluate: all
